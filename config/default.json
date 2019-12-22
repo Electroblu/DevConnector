@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://Xarva:Xarva123@devconnecter-en3ht.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://Xarva:Xarva123@devconnecter-en3ht.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "X9LNqfD#n4sYL@oa9Ky1*3bWp9BH%$bynDF&B^oYgA5mPNYSgsEY4@YLP5EJvFHQ"
 }
