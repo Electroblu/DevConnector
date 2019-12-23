@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://Xarva:Xarva123@devconnecter-en3ht.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "X9LNqfD#n4sYL@oa9Ky1*3bWp9BH%$bynDF&B^oYgA5mPNYSgsEY4@YLP5EJvFHQ"
+    "jwtSecret": "X9LNqfD#n4sYL@oa9Ky1*3bWp9BH%$bynDF&B^oYgA5mPNYSgsEY4@YLP5EJvFHQ",
+    "githubClientId": "86c8026d42f5eca6986f",
+    "githubSecret": "03e28c345d8c88c181cf3c25c35730a0f47769fb"
 }
