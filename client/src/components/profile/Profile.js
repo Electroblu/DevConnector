@@ -2,11 +2,14 @@ import React, {Fragment, useEffect} from 'react'
 import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
+
+// Components
 import Spinner from '../layout/Spinner'
 import ProfileTop from './ProfileTop'
 import ProfileAbout from './ProfileAbout'
 import ProfileExperience from './ProfileExperience'
 import ProfileEducation from './ProfileEducation'
+import ProfileGithub from './ProfileGithub'
 import {getProfileById} from '../../actions/profile'
 
 const Profile = ({
@@ -51,6 +54,10 @@ const Profile = ({
                             </Fragment>
                         ) : (<h4>No education credentials</h4>)}
                     </div>
+
+                    {profile.githubusername && (
+                        <ProfileGithub username={profile.githubusername}/>
+                    )}
                 </div>
                 </Fragment>}
         </Fragment>

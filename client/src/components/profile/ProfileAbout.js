@@ -29,7 +29,7 @@ const ProfileAbout = ({
         </div>
 
 ProfileAbout.propTypes = {
-
+    profile: PropTypes.object.isRequired
 }
 
 export default ProfileAbout
